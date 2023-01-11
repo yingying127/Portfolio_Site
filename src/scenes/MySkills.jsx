@@ -49,7 +49,7 @@ const MySkills = () => {
 
       {/* SKILLS */}
       <div className="md:flex md:justify-between mt-16 gap-32">
-        {/* EXPERIENCE */}
+        {/* FRONT END */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -65,19 +65,26 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Front End
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            A good GUI can be the difference between a company that is successful, and one that is not.
+            I have experience in building beautiful, responsive, and intuitive interfaces for web applications.
           </p>
+          <br></br>
+          <ul>
+            <i>Relevant Skills:</i>
+            <li>React</li>
+            <li>Vue.js</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+          </ul>
         </motion.div>
 
-        {/* INNOVATIVE */}
+        {/* BACK END */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -93,19 +100,26 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Back End
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            I bring a great deal of knowledge and skill to the table when it comes to building scalable,
+            secure, and efficient backends for web applications.
           </p>
+          <br></br>
+          <ul>
+            <i>Relevant Skills:</i>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Spring Boot</li>
+            <li>PostgreSQL</li>
+            <li>RESTful APIs</li>
+          </ul>
         </motion.div>
-        {/* IMAGINATIVE */}
+        {/* ML/AI */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
@@ -121,17 +135,24 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                ML/AI
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            My breadth of experience allows me to contribute to any aspect of a team in a significant capacity.
+            I have experience in building and deploying machine learning models, as well as providing business
+            analytics.
           </p>
+          <br></br>
+          <ul>
+            <i>Relevant Skills:</i>
+            <li>Tensorflow</li>
+            <li>Machine Learning</li>
+            <li>Predictive Analytics</li>
+            <li>Azure/GCP</li>
+          </ul>
         </motion.div>
       </div>
     </section>
