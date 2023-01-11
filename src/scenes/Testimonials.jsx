@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
+  
   return (
     <section id="testimonials" className="pt-32 pb-16">
       {/* HEADING */}
@@ -21,8 +22,8 @@ const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+          Here are some testimonials from my former colleagues. For additional references, please contact me directly
+          and I will be happy to provide them.
         </p>
       </motion.div>
 
