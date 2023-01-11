@@ -24,8 +24,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            As a fullstack developer and former data scientist/entrepreneur, I bring a unique and potent 
+            combination of skills to the table. Some of these skills include:
           </p>
         </motion.div>
 
