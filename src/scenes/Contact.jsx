@@ -12,6 +12,7 @@ const Contact = () => {
   const onSubmit = async (e) => {
     console.log("~ e", e);
     const isValid = await trigger();
+    // wait until after the form is validated to continue
     if (!isValid) {
       e.preventDefault();
     }
@@ -33,7 +34,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            <span className="text-yellow">CONTACT ME</span> TODAY
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -71,19 +72,21 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/9f99350332cf077cb1542464f5ee39b2"
             method="POST"
           >
             <input
               className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
+              // react hook form validation to register input
               {...register("name", {
                 required: true,
                 maxLength: 100,
               })}
             />
             {errors.name && (
+              // custom error messages
               <p className="text-red mt-1">
                 {errors.name.type === "required" && "This field is required."}
                 {errors.name.type === "maxLength" && "Max length is 100 char."}
@@ -96,6 +99,7 @@ const Contact = () => {
               placeholder="EMAIL"
               {...register("email", {
                 required: true,
+                // regex pattern for email validation
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
             />
@@ -122,7 +126,7 @@ const Contact = () => {
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&
-                  "Max length is 2000 char."}
+                  "Max length is 2000 characters."}
               </p>
             )}
 
