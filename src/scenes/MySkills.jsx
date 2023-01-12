@@ -150,7 +150,6 @@ const MySkills = () => {
             <i>Relevant Skills:</i>
             <li>Tensorflow</li>
             <li>Machine Learning</li>
-            <li>Predictive Analytics</li>
             <li>Azure/GCP</li>
           </ul>
         </motion.div>
