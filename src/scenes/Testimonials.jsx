@@ -43,8 +43,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          He is positive, intelligent, inclusive & strives to not only 
-          better himself but those around him as well.
+          A great addition to any team. He is inspiring, knowledgeable, and committed to getting the job done.
           </p>
         </motion.div>
 
@@ -62,8 +61,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          He is positive, intelligent, inclusive & strives to not only 
-          better himself but those around him as well.
+          Very hardworking, dedicated, and a great team player. He is a great asset to any team.
           </p>
         </motion.div>
 
