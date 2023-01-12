@@ -43,7 +43,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+          He is positive, intelligent, inclusive & strives to not only 
+          better himself but those around him as well.
           </p>
         </motion.div>
 
@@ -61,8 +62,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+          He is positive, intelligent, inclusive & strives to not only 
+          better himself but those around him as well.
           </p>
         </motion.div>
 
@@ -80,7 +81,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+          He is positive, intelligent, inclusive & strives to not only 
+          better himself but those around him as well.
           </p>
         </motion.div>
       </div>
