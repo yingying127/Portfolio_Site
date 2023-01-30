@@ -74,14 +74,6 @@ const MySkills = () => {
             A good GUI can be the difference between a company that is successful, and one that is not.
             I have experience in building beautiful, responsive, and intuitive interfaces for web applications.
           </p>
-          <br></br>
-          <ul>
-            <i>Relevant Skills:</i>
-            <li>React</li>
-            <li>Vue.js</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-          </ul>
         </motion.div>
 
         {/* BACK END */}
@@ -107,17 +99,9 @@ const MySkills = () => {
           </div>
           <p className="mt-5">
             I bring a great deal of knowledge and skill to the table when it comes to building scalable,
-            secure, and efficient backends for web applications.
+            secure, and efficient backends for web applications. I can work in multiple frameworks and languages 
+            to augment the effectiveness of any team.
           </p>
-          <br></br>
-          <ul>
-            <i>Relevant Skills:</i>
-            <li>Java</li>
-            <li>Python</li>
-            <li>Spring Boot</li>
-            <li>PostgreSQL</li>
-            <li>RESTful APIs</li>
-          </ul>
         </motion.div>
         {/* ML/AI */}
         <motion.div
@@ -145,13 +129,6 @@ const MySkills = () => {
             I have experience in building and deploying machine learning models, as well as providing business
             analytics.
           </p>
-          <br></br>
-          <ul>
-            <i>Relevant Skills:</i>
-            <li>Tensorflow</li>
-            <li>Machine Learning</li>
-            <li>Azure/GCP</li>
-          </ul>
         </motion.div>
       </div>
     </section>

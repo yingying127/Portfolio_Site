@@ -43,7 +43,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          A great addition to any team. He is inspiring, knowledgeable, and committed to getting the job done.
+          A great addition to any team. He is inspiring, knowledgeable,
+           and committed to getting the job done.
           </p>
         </motion.div>
 
@@ -61,7 +62,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          Very hardworking, dedicated, and a great team player. He is a great asset to any team.
+          He was always there to help a student in need and went above and beyond to mentor his 
+          fellow classmates.
           </p>
         </motion.div>
 
