@@ -45,14 +45,8 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Derek {""}
-            <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
-            >
-              Rymers
-            </span>
+          <p className="text-6xl font-'Gabarito'">
+            Ying Ying Feng
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
