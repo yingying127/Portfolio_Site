@@ -2,7 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Footer = () => {
   return (
-    <footer className="h-64 bg-red pt-10">
+    <footer className="h-64 bg-red py-6">
       <div className="w-10/12 mx-auto">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
@@ -10,7 +10,7 @@ const Footer = () => {
             YING YING FENG
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2023 Property of Ying Ying Feng. All Rights Reserved.
+            ©2022 Property of Ying Ying Feng. All Rights Reserved.
           </p>
         </div>
       </div>
