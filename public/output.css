@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Gabarito");
 
+.css-selector {
+  font-family: 'Gabarito', serif;
+} 
 
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
@@ -45,7 +48,7 @@ html {
   /* 3 */
   tab-size: 4;
   /* 3 */
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gabarito', serif;
   /* 4 */
   -webkit-font-feature-settings: normal;
           font-feature-settings: normal;
@@ -913,7 +916,11 @@ video {
 
 .bg-red{
   --tw-bg-opacity: 1;
-  background-color: rgb(220 68 146 / var(--tw-bg-opacity));
+  background-color: rgb(76 187 23 / var(--tw-bg-opacity));
+}
+
+.bg-green{
+  background-color: white;
 }
 
 .bg-grey{
@@ -1026,7 +1033,11 @@ video {
 }
 
 .font-playfair{
-  font-family: Arial, Helvetica, sans-serif
+  font-family: 'playfair';
+}
+
+.font-gabarito{
+  font-family: 'Gabarito', serif;
 }
 
 .font-opensans{
@@ -1260,7 +1271,11 @@ body,
 
 .hover\:bg-red:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(220 68 146 / var(--tw-bg-opacity));
+  background-color: rgb(76 187 23 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green:hover{
+  background-color: white;
 }
 
 .hover\:bg-blue:hover{
@@ -1301,6 +1316,7 @@ body,
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
 
 @media (min-width: 480px){
   .xs\:relative{

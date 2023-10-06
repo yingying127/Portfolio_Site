@@ -50,7 +50,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Hi, i'm a Software Developer with experience in freelance website design. I am eager to collaborate with forward-thinking teams in delivering high-quality software solutions that meet user needs and drive technological advancement.
+          Hi! I'm a Software Developer with experience in freelance website design. I am eager to collaborate with forward-thinking teams, in delivering high-quality software solutions that meet user needs and drive technological advancement.
 
 
           </p>

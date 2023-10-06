@@ -26,7 +26,7 @@ const Project = ({ title, subtext }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-2xl font-gabarito">{title}</p>
         <p className="mt-7">{subtext}</p>
       </div>
       <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
@@ -54,7 +54,7 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-gabarito font-semibold text-4xl">
             <span className="text-red">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
@@ -79,7 +79,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
           >
             EFFICIENT BACKENDS
           </div>
@@ -96,7 +96,7 @@ const Projects = () => {
           <Project title="Data Science Capstone" subtext="A sigmoid classification neural network trained to predict credit card fraud."/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
           >
             SMOOTH FRONTENDS
           </div>

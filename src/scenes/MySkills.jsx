@@ -19,7 +19,7 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5">
+          <p className="font-gabarito font-semibold text-4xl mb-5">
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
@@ -63,8 +63,8 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-gabarito font-semibold text-5xl">01</p>
+              <p className="font-gabarito font-semibold text-3xl mt-3">
                 Front End
               </p>
             </div>
@@ -90,8 +90,8 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-gabarito font-semibold text-5xl">02</p>
+              <p className="font-gabarito font-semibold text-3xl mt-3">
                 Back End
               </p>
             </div>
@@ -117,8 +117,8 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-gabarito font-semibold text-5xl">03</p>
+              <p className="font-gabarito font-semibold text-3xl mt-3">
                 ML/AI
               </p>
             </div>
