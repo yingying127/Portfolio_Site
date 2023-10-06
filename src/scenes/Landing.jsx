@@ -46,8 +46,9 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-'Gabarito'">
-            Ying Ying Feng
+            Ying Ying
           </p>
+          <p className="text-pink-900 text-6xl font-'Gabarito">Feng</p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Hi! I'm a Software Developer with experience in freelance website design. I am eager to collaborate with forward-thinking teams, in delivering high-quality software solutions that meet user needs and drive technological advancement.

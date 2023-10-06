@@ -20,7 +20,7 @@ const MySkills = () => {
           }}
         >
           <p className="font-gabarito font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            MY <span className="text-pink-900">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
