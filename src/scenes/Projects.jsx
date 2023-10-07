@@ -58,7 +58,7 @@ const Projects = () => {
             <span className="text-pink-900">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
-            <LineGradient width="w-2/3" />
+            <LineGradient width="w-1/3" />
           </div>
         </div>
         <p className="mt-10 mb-10">
@@ -83,17 +83,22 @@ const Projects = () => {
           >
             EFFICIENT BACKENDS
           </div>
-          <Project title="Insulin Hero Rebuild" subtext="A rebuilt and heavily improved version of Insulin Hero incorporating more focused, smarter, and far more advanced features."/>
+          <Project title="Boba Girl" subtext="An e-commerce store offers consumers the convenience of purchasing specific ingredients to create their own boba kits, which can be delivered for a delightful homemade boba experience."/>
           <Project title="Insulin Hero" subtext="A diabetic tracking application focused on providing smart blood sugar tracking, carbohydrate counting, and other features requested by members of the diabetic community."/>
 
           {/* ROW 2 */}
-          <Project title="Portfolio Site" subtext="This portfolio site, built in React.js."/>
-          <Project title="Expense Tracker" subtext="An expense tracking application designed to reduce unwanted/unexpected expenses from subscription based models."/>
-          <Project title="Game Night Scheduler" subtext="A game night scheduling application, designed to help users keep in touch with their friends via Discord and Google Calendar."/>
+          <Project title="Gift Finder" subtext="A platform for gift suggestions, wishlist sharing, and reserving gifts within user communities."/>
+          <div
+            className="flex justify-center text-center items-center p-10 bg-red
+              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
+          >
+            FUNCTIONAL APIs
+          </div>
+          <Project title="Meet me at the Spot" subtext="A curated website to view public exhibitions at various museums. "/>
 
           {/* ROW 3 */}
-          <Project title="OhGoody Business Analysis" subtext="A full scale analysis of a startup business, that led to reduced OPEX and a 20% improved growth trajectory from statistically backed strategic pivots."/>
-          <Project title="Data Science Capstone" subtext="A sigmoid classification neural network trained to predict credit card fraud."/>
+          <Project title="Portfolio Site" subtext="This portfolio site, built in React.js."/>
+          <Project title="Bubble Bear Tea" subtext="A website for a bubble tea shop highlighting the menu and the owners' commitment and backstory."/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"

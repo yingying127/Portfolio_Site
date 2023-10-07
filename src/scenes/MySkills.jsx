@@ -24,8 +24,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            As a fullstack developer and former data scientist/entrepreneur, I bring a unique and potent 
-            combination of skills to the table. Some of these skills include:
+            As a full stack developer with a background in architecture, I offer an abstract and unique skill set that bridges the world of design and development.
+            <br></br>Some of these skills include:
           </p>
         </motion.div>
 
@@ -71,8 +71,8 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A good GUI can be the difference between a company that is successful, and one that is not.
-            I have experience in building beautiful, responsive, and intuitive interfaces for web applications.
+            An effective and visually appealing user interface is an essential component in achieving favorable outcomes. <br></br>
+            Through my experience, I have demonstrated the ability to craft stunning, highly responsive, and user-friendly interfaces for web applications.
           </p>
         </motion.div>
 
@@ -98,9 +98,8 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I bring a great deal of knowledge and skill to the table when it comes to building scalable,
-            secure, and efficient backends for web applications. I can work in multiple frameworks and languages 
-            to augment the effectiveness of any team.
+            An organized database enhances scalability and security for web applications. <br></br>
+            I am dedicated to acquiring new skills, and I possess proficiency in multiple frameworks and languages, which enhances team effectiveness.
           </p>
         </motion.div>
         {/* ML/AI */}
@@ -119,15 +118,14 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-gabarito font-semibold text-5xl">03</p>
               <p className="font-gabarito font-semibold text-3xl mt-3">
-                ML/AI
+                APIs
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            My breadth of experience allows me to contribute to any aspect of a team in a significant capacity.
-            I have experience in building and deploying machine learning models, as well as providing business
-            analytics.
+          I have hands-on experience working with various APIs, integrating external services to enhance the functionality of web applications. <br></br>
+          This experience has enabled me to build versatile and interconnected software solutions.
           </p>
         </motion.div>
       </div>
