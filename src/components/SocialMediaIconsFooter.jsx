@@ -7,7 +7,7 @@ const SocialMediaIconsFooter = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="linkedin-link" src="../assets/linkedin.png" />
+          <img alt="linkedin-black-link" src="../assets/linkedin-black.png" />
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
@@ -15,7 +15,7 @@ const SocialMediaIconsFooter = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="github-link" src="../assets/github.png" />
+          <img alt="github-black-link" src="../assets/github-black.png" />
         </a>
       </div>
     );
