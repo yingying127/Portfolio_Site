@@ -937,8 +937,16 @@ video {
   background-image: linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
 }
 
-.bg-gradient-green{
-  background-image: linear-gradient(90deg, #5fb4b9, #79bbd6, #a3c0e7, #ccc4ea, #edcae5);
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, rgb(131, 24, 67), rgb(190, 24, 93))
+}
+
+.drop-shadow-lg{
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+.drop-shadow-xl{
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
 .bg-amber-50 {

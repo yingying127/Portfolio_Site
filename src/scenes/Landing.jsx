@@ -1,7 +1,8 @@
-// import SocialMediaIcons from "../components/SocialMediaIcons";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-// import AnchorLink from "react-anchor-link-smooth-scroll";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import LineGradient from "../components/LineGradient";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -48,14 +49,48 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-6xl font-'Gabarito'">
             Ying Ying
           </p>
-          <p className="text-pink-900 text-6xl font-'Gabarito">Feng</p>
+          <p className="text-pink-900 text-6xl font-'Gabarito">
+            Feng
+          </p>
+          <LineGradient width="w-1/3" />
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Hi! I'm a Software Developer with experience in freelance website design. I am eager to collaborate with forward-thinking teams, in delivering high-quality software solutions that meet user needs and drive technological advancement.
 
 
           </p>
-        </motion.div>        
+        </motion.div>
+
+        {/* CALL TO ACTIONS */}
+        <motion.div
+          className="flex mt-5 justify-center md:justify-start"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
+          }}
+        >
+          <AnchorLink
+            className="bg-gradient-to-r from-rose-900 to-pink-700 text-white rounded-md py-3 px-7
+              hover:bg-blue hover:text-black hover:drop-shadow-xl transition duration-500"
+            onClick={() => setSelectedPage("contact")}
+            href="#contact"
+          >
+            Contact Me
+          </AnchorLink>
+          <AnchorLink
+            className="p-0.5 rounded-md bg-gradient-to-r from-rose-900 to-pink-700 py-0.5 pr-0.5"
+            onClick={() => setSelectedPage("contact")}
+            href="#contact"
+          >
+            <div className="bg-amber-50 text-black font-bold rounded-md hover:text-rose-900 hover:drop-shadow-xl transition duration-500 w-full h-full flex items-center justify-center px-10 font-'Gabarito'">
+              Let's talk
+            </div>
+          </AnchorLink>
+        </motion.div>
 
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
@@ -67,7 +102,8 @@ const Landing = ({ setSelectedPage }) => {
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
           }}
-        >
+        > 
+          <SocialMediaIcons />
         </motion.div>
       </div>
     </section>
