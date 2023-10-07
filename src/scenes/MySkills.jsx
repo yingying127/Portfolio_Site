@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pt-6 pb-24">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -68,7 +68,7 @@ const MySkills = () => {
                 Front End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-pink-900 absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
             An effective and visually appealing user interface is an essential component in achieving favorable outcomes. <br></br>
@@ -90,12 +90,12 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-gabarito font-semibold text-5xl">02</p>
-              <p className="font-gabarito font-semibold text-3xl mt-3">
+              <p className="font-gabarito font-semibold text-black text-5xl">02</p>
+              <p className="font-gabarito font-semibold text-black text-3xl mt-3">
                 Back End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-amber-50 absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
             An organized database enhances scalability and security for web applications. <br></br>
@@ -121,7 +121,7 @@ const MySkills = () => {
                 APIs
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
           I have hands-on experience working with various APIs, integrating external services to enhance the functionality of web applications. <br></br>

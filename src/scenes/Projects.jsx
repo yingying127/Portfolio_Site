@@ -40,7 +40,7 @@ const Project = ({ title, subtext }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-24 pb-24">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -78,18 +78,18 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
+            className="flex justify-center text-center items-center p-10 bg-pink-900
               max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
           >
             EFFICIENT BACKENDS
           </div>
-          <Project title="Boba Girl" subtext="An e-commerce store offers consumers the convenience of purchasing specific ingredients to create their own boba kits, which can be delivered for a delightful homemade boba experience."/>
+          <Project title="Boba Girl" subtext="An e-commerce store offers the convenience of purchasing boba ingredients and kits, which are delivered for a homemade boba experience."/>
           <Project title="Life Below Water" subtext="A theoretical online recycling program designed to monitor recycling activity, manage receipts, and distribute rewards."/>
 
           {/* ROW 2 */}
           <Project title="Gift Finder" subtext="A platform for gift suggestions, wishlist sharing, and reserving gifts within user communities."/>
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
+            className="flex justify-center text-center items-center p-10 bg-amber-50 text-pink-900
               max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
           >
             FUNCTIONAL APIs
