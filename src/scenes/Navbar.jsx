@@ -23,9 +23,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const navbarBackground = isTopOfPage ? "" : "bg-amber-50 opacity-80";
 
   return (
-    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-3 text-deep-blue`}>
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 text-deep-blue`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-gabarito font-bold"> </h4>
+        <h4 className="font-playfair text-3xl font-bold">YF</h4>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (

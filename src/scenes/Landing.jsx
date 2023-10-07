@@ -46,10 +46,10 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-'Gabarito'">
+          <p className="text-6xl font-playfair">
             Ying Ying
           </p>
-          <p className="text-pink-900 text-6xl font-'Gabarito">
+          <p className="text-pink-900 text-6xl font-playfair">
             Feng
           </p>
           <LineGradient width="w-1/3" />
