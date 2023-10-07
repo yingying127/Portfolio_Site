@@ -34,7 +34,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-gabarito font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TODAY
+            <span className="text-pink-900">CONTACT ME</span> TODAY
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -72,11 +72,11 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/9f99350332cf077cb1542464f5ee39b2"
+            action="https://formsubmit.co/678fe8a6bc9e42fac5c969516fdbee2a"
             method="POST"
           >
             <input
-              className="w-full bg-amber-50 font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-amber-50 text-black text-md font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
               // react hook form validation to register input
@@ -87,14 +87,14 @@ const Contact = () => {
             />
             {errors.name && (
               // custom error messages
-              <p className="text-red mt-1">
+              <p className="text-pink-900 mt-1">
                 {errors.name.type === "required" && "This field is required."}
                 {errors.name.type === "maxLength" && "Max length is 100 char."}
               </p>
             )}
 
             <input
-              className="w-full bg-amber-50 font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-amber-50 text-black text-md font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -104,14 +104,14 @@ const Contact = () => {
               })}
             />
             {errors.email && (
-              <p className="text-red mt-1">
+              <p className="text-pink-900 mt-1">
                 {errors.email.type === "required" && "This field is required."}
                 {errors.email.type === "pattern" && "Invalid email address."}
               </p>
             )}
 
             <textarea
-              className="w-full bg-amber-50 font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-amber-50 text-black text-md font-semibold placeholder-opaque-black p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
@@ -122,7 +122,7 @@ const Contact = () => {
               })}
             />
             {errors.message && (
-              <p className="text-red mt-1">
+              <p className="text-pink-900 mt-1">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&
@@ -131,7 +131,7 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-amber-50 font-semibold text-black mt-5 hover:bg-pink-900 hover:text-black transition duration-500"
+              className="p-5 bg-amber-50 text-black text-md font-semibold text-black mt-5 hover:bg-pink-900 hover:text-white transition duration-500"
               type="submit"
             >
               SEND ME A MESSAGE

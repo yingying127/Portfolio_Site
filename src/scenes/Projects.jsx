@@ -84,7 +84,7 @@ const Projects = () => {
             EFFICIENT BACKENDS
           </div>
           <Project title="Boba Girl" subtext="An e-commerce store offers consumers the convenience of purchasing specific ingredients to create their own boba kits, which can be delivered for a delightful homemade boba experience."/>
-          <Project title="Insulin Hero" subtext="A diabetic tracking application focused on providing smart blood sugar tracking, carbohydrate counting, and other features requested by members of the diabetic community."/>
+          <Project title="Life Below Water" subtext="A theoretical online recycling program designed to monitor recycling activity, manage receipts, and distribute rewards."/>
 
           {/* ROW 2 */}
           <Project title="Gift Finder" subtext="A platform for gift suggestions, wishlist sharing, and reserving gifts within user communities."/>
