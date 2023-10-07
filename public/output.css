@@ -1348,6 +1348,10 @@ body,
   opacity: 0.9;
 }
 
+.hover\:opacity-95:hover{
+  opacity: 0.95;
+}
+
 .hover\:saturate-200:hover{
   --tw-saturate: saturate(2);
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);

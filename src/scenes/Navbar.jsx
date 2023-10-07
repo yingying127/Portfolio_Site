@@ -20,7 +20,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-amber-50 opacity-80";
+  const navbarBackground = isTopOfPage ? "" : "bg-amber-50 opacity-90";
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 text-deep-blue`}>
@@ -62,7 +62,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-amber-50 opacity-90 w-[-100px]">
+          <div className="fixed right-0 bottom-0 h-full bg-amber-50 w-[250px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -71,7 +71,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </div>
 
             {/* MENU ITEMS */}
-            <div className="flex flex-col gap-10 ml-[33%] text-4xl text-deep-blue">
+            <div className="flex flex-col gap-10 ml-[25%] text-3xl text-deep-blue">
               <Link
                 page="Home"
                 selectedPage={selectedPage}
@@ -84,11 +84,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               />
               <Link
                 page="Projects"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Testimonials"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
