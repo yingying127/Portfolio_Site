@@ -23,7 +23,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const navbarBackground = isTopOfPage ? "" : "bg-amber-50 opacity-90";
 
   return (
-    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 text-deep-blue`}>
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6 text-deep-blue`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
         <h4 className="font-playfair text-3xl font-bold">YF</h4>
 
@@ -52,11 +52,16 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
           </div>
         ) : (
-          <button
-            className="rounded-full bg-yellow p-2"
-            onClick={() => setIsMenuToggled(!isMenuToggled)}>
-            <img alt="menu-icon" src="../assets/menu-icon.svg" />
-          </button>
+          // <div className="fixed right-0 bottom-0 h-full">
+          //   {/* HAMBURGER ICON */}
+          //   <div className="flex justify-end p-8">
+              <button
+                className="rounded-full bg-yellow p-2"
+                onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                <img alt="menu-icon" src="../assets/menu-icon.svg" />
+              </button>
+          //   </div>
+          // </div>
         )}
 
         {/* MOBILE MENU POPUP */}
