@@ -49,6 +49,7 @@ const MySkills = () => {
 
       {/* SKILLS */}
       <div className="md:flex md:justify-between mt-16 gap-32">
+        
         {/* FRONT END */}
         <motion.div
           className="md:w-1/3 mt-10"
@@ -102,7 +103,8 @@ const MySkills = () => {
             I am dedicated to acquiring new skills, and I possess proficiency in multiple frameworks and languages, which enhances team effectiveness.
           </p>
         </motion.div>
-        {/* ML/AI */}
+
+        {/* APIs */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
