@@ -667,6 +667,11 @@ video {
   z-index: 40;
 }
 
+.z-absolute{
+  position: absolute;
+  z-index: -1;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;

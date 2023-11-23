@@ -33,7 +33,7 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-pink-500 before:z-[-1]"
             >
               <img
                 alt="skills"
@@ -55,21 +55,21 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
+          <div className="h-32 relative">
             <div className="z-10">
               <p className="font-gabarito font-semibold text-5xl">01</p>
               <p className="font-gabarito font-semibold text-3xl mt-3">
                 Front End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-pink-900 absolute right-0 top-0 z-[-1]" />
+            <div className="-z-1 w-1/2 md:w-3/4 h-32 bg-pink-900 absolute right-0 top-0" />
           </div>
           <p className="mt-5">
             An effective and visually appealing user interface is an essential component in achieving favorable outcomes. <br></br>
@@ -96,7 +96,7 @@ const MySkills = () => {
                 Back End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-amber-50 absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-amber-50 absolute right-0 top-0 -z-[-1]" />
           </div>
           <p className="mt-5">
             An organized database enhances scalability and security for web applications. <br></br>
@@ -123,7 +123,7 @@ const MySkills = () => {
                 APIs
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-1" />
           </div>
           <p className="mt-5">
           I have hands-on experience working with various APIs, integrating external services to enhance the functionality of web applications. <br></br>
