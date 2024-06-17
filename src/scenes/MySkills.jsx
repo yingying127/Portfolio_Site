@@ -24,7 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            As a full stack developer with a background in architecture, I offer an abstract and unique skill set that bridges the world of design and development.
+            As a full stack developer with a background in Architecture, I offer an abstract and unique skill set that bridges the world of design and development.
             <br></br>Some of these skills include:
           </p>
         </motion.div>
@@ -69,7 +69,7 @@ const MySkills = () => {
                 Front End
               </p>
             </div>
-            <div className="-z-1 w-1/2 md:w-3/4 h-32 bg-pink-900 absolute right-0 top-0" />
+            <div className="-z-1 w-1/2 md:w-3/7 h-32 opacity-75 bg-pink-900 absolute right-0 top-0" />
           </div>
           <p className="mt-5">
             An effective and visually appealing user interface is an essential component in achieving favorable outcomes. <br></br>
@@ -96,7 +96,7 @@ const MySkills = () => {
                 Back End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-amber-50 absolute right-0 top-0 -z-[-1]" />
+            <div className="w-1/2 md:w-4/7 h-32 bg-amber-50 opacity-75 absolute right-0 top-0 -z-[-1]" />
           </div>
           <p className="mt-5">
             An organized database enhances scalability and security for web applications. <br></br>
@@ -123,7 +123,7 @@ const MySkills = () => {
                 APIs
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-1" />
+            <div className="w-1/2 md:w-3/4 h-32 opacity-75 bg-blue absolute right-0 top-0 z-1" />
           </div>
           <p className="mt-5">
           I have hands-on experience working with various APIs, integrating external services to enhance the functionality of web applications. <br></br>

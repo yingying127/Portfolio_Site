@@ -20,15 +20,15 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[500px]"
-              src="assets/yyprofile-curved.png"
+              className="hover:filter hover:saturate-00 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[500px]"
+              src="assets/yypf-curved.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[300px] md:max-w-[500px]"
-            src="assets/yyprofile-curved.png"
+            src="assets/yypf-curved.png"
           />
         )}
       </div>
@@ -56,8 +56,6 @@ const Landing = ({ setSelectedPage }) => {
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Hi! I'm a Software Developer with experience in freelance website design. I am eager to collaborate with forward-thinking teams, in delivering high-quality software solutions that meet user needs and drive technological advancement.
-
-
           </p>
         </motion.div>
 

@@ -19,8 +19,8 @@ const projectVariant = {
 
 const Project = ({ title, subtext }) => {
   // represents the text that appears on hover. Z-30 allows it to be on top of the image
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-95 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-white`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
         <p className="mt-10 mb-10">
           Across the stack, the projects I have worked on have helped people, businesses, and expanded my 
-          knowledge base and skills in web development.
+          skills in web development.
         </p>
       </motion.div>
 
@@ -79,18 +79,18 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-pink-900
-              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
+              max-w-[400px] max-h-[400px] text-3xl font-gabarito font-semibold"
           >
             EFFICIENT BACKENDS
           </div>
-          <Project title="Boba Girl" subtext="An e-commerce store offers the convenience of purchasing boba ingredients and kits, which are delivered for a homemade boba experience."/>
+          <Project title="Boba Girl" subtext="An e-commerce store offers the convenience of purchasing boba ingredients and kits, which are delivered for a homemade boba experience." text="hi"/>
           <Project title="Life Below Water" subtext="A theoretical online recycling program designed to monitor recycling activity, manage receipts, and distribute rewards."/>
 
           {/* ROW 2 */}
           <Project title="Gift Finder" subtext="A platform for gift suggestions, wishlist sharing, and reserving gifts within user communities."/>
           <div
             className="flex justify-center text-center items-center p-10 bg-amber-50 text-pink-900
-              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
+              max-w-[400px] max-h-[400px] text-3xl font-gabarito font-semibold"
           >
             FUNCTIONAL APIs
           </div>
@@ -101,7 +101,7 @@ const Projects = () => {
           <Project title="Bubble Bear Tea" subtext="A website for a bubble tea shop highlighting the menu and the owners' commitment and backstory."/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-gabarito font-semibold"
+              max-w-[400px] max-h-[400px] text-3xl font-gabarito font-semibold"
           >
             SMOOTH FRONTENDS
           </div>
