@@ -83,7 +83,7 @@ const Projects = () => {
           >
             EFFICIENT BACKENDS
           </div>
-          <Project title="Boba Girl" subtext="An e-commerce store offers the convenience of purchasing boba ingredients and kits, which are delivered for a homemade boba experience." text="hi"/>
+          <Project title="Boba Girl" subtext="An e-commerce store offers the convenience of purchasing boba ingredients and kits, which are delivered for a homemade boba experience."/>
           <Project title="Life Below Water" subtext="A theoretical online recycling program designed to monitor recycling activity, manage receipts, and distribute rewards."/>
 
           {/* ROW 2 */}
@@ -94,7 +94,7 @@ const Projects = () => {
           >
             FUNCTIONAL APIs
           </div>
-          <Project title="Meet me at the Spot" subtext="A curated website to view public exhibitions at various museums. "/>
+          <Project title="Meet Me at the Spot" subtext="A curated website to view public exhibitions at various museums. "/>
 
           {/* ROW 3 */}
           <Project title="Portfolio Site" subtext="This portfolio site, built in React.js."/>
